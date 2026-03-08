@@ -79,6 +79,11 @@ Each combined file:
 The following codes are stripped from input files and handled at the combined file level: `G21`, `G90`, `G91`, `G28`,
 `M2`, `M30`.
 
+## Limitations
+
+Pieces are not rotated — they are placed in the same orientation as in the input files. If rotating a piece
+would allow for a better fit, you need to do that in your CAM software before running gcoco.
+
 ## Requirements
 
 - Input files must use mm units (`G21`)
