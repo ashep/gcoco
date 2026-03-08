@@ -1,7 +1,10 @@
 # gcoco — G-code Combiner
 
-Combines multiple G-code files into a single file, automatically arranging pieces within your machine's working area.
-Designed for Grbl/LinuxCNC machines and CAM output from tools like Fusion 360.
+Combines and nests multiple G-code files into a single output file, automatically arranging pieces within your
+machine's working area to minimise material waste. Useful when your CAM software (Fusion 360, FreeCAD, etc.)
+generates one file per part and you want to cut them all in one job.
+
+Designed for Grbl and LinuxCNC machines. Handles standard G-code from common CAM tools.
 
 ## How it works
 
